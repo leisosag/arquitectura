@@ -11,7 +11,7 @@
 /***** COLORES *****/
 #home, #about, #portfolio {
     background-color: var(--base-dark);
-    min-height: 90vh;
+    min-height: 100vh;
 }
 h1 {
     color: var(--blanco-titulos);
@@ -20,23 +20,19 @@ p {
     color: var(--blanco-texto);
 }
 /***** NAVBAR *****/
-nav {
-    height: 10vh;
-    background-color: var(--base-dark-navbar);
+.bg-dark {
+    background-color: var(--base-dark-navbar)!important;
 }
 .navbar-nav .nav-item .nav-link  {
     font-size: 1.2rem;
     color: var(--blanco-titulos);
     font-weight: 200;
 }
-.navbar-nav > .active  a{
+.navbar-nav > .active{
     color: var(--primary-dark-mode)!important;
     font-weight: 600;
 }
 /***** ABOUT *****/
-#about {
-
-}
 .about-contenedor-foto img {
     width: 100%;
 }
